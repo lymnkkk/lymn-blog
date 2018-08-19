@@ -1,0 +1,20 @@
+body,div,ul,li,img,input,textarea,p,article,h2{
+    margin: 0;
+    padding: 0;
+}
+div,input,textarea,p,article,h2{
+    box-sizing: border-box;
+}
+
+input,button,textarea{
+    outline: none;
+}
+input,textarea{
+    font-size: 16px;
+}
+a{
+    text-decoration: none !important;
+}
+/* ul li{
+    list-style: none;
+} */
