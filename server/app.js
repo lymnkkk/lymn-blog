@@ -1,15 +1,9 @@
-// import model from './model';
 import Koa from 'koa';
-// import bodyParser from 'koa-bodyparser';
-// import cors from 'koa-cors';
 import middleware from './middleware'
-
 import api from './api';
 
 const app = new Koa();
 
-// app.use(bodyParser());
-// app.use(cors());
 app.use(middleware())
 app.use(api());
 app.listen(3000);
