@@ -18,7 +18,7 @@
 * 缓存lru-cache
 
 #### 后端
-* 基于Node.js的框架Vue2
+* 基于Node.js的框架Koa
 * 路由Koa-Router
 * 数据库MySQL
 * 权限验证JWT+Redis
